@@ -16,8 +16,6 @@
     UIView *_backgroundView;
     UISwipeGestureRecognizer *_swipeUpGesture;
     UISwipeGestureRecognizer *_swipeDownGesture;
-    
-    
 }
 
 @end
