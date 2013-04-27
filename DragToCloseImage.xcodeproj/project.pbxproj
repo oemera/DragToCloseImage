@@ -18,6 +18,9 @@
 		F0457C5017247BA600EDE3AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0457C4F17247BA600EDE3AB /* Default-568h@2x.png */; };
 		F0457C5317247BA600EDE3AB /* DOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0457C5217247BA600EDE3AB /* DOViewController.m */; };
 		F0457C5617247BA600EDE3AB /* DOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0457C5417247BA600EDE3AB /* DOViewController.xib */; };
+		F0457C5F17247FB300EDE3AB /* sample-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0457C5E17247FB300EDE3AB /* sample-image.jpg */; };
+		F0457C6117259D5100EDE3AB /* sample-image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0457C6017259D5100EDE3AB /* sample-image@2x.jpg */; };
+		F0BA2C9D172AD05200C5C1B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BA2C9C172AD05200C5C1B0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		F0457C5117247BA600EDE3AB /* DOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOViewController.h; sourceTree = "<group>"; };
 		F0457C5217247BA600EDE3AB /* DOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOViewController.m; sourceTree = "<group>"; };
 		F0457C5517247BA600EDE3AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DOViewController.xib; sourceTree = "<group>"; };
+		F0457C5E17247FB300EDE3AB /* sample-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sample-image.jpg"; path = "DragToCloseImage/Resources/sample-image.jpg"; sourceTree = "<group>"; };
+		F0457C6017259D5100EDE3AB /* sample-image@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sample-image@2x.jpg"; path = "DragToCloseImage/Resources/sample-image@2x.jpg"; sourceTree = "<group>"; };
+		F0BA2C9C172AD05200C5C1B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BA2C9D172AD05200C5C1B0 /* QuartzCore.framework in Frameworks */,
 				F0457C3A17247BA600EDE3AB /* UIKit.framework in Frameworks */,
 				F0457C3C17247BA600EDE3AB /* Foundation.framework in Frameworks */,
 				F0457C3E17247BA600EDE3AB /* CoreGraphics.framework in Frameworks */,
@@ -56,7 +63,9 @@
 		F0457C2D17247BA600EDE3AB = {
 			isa = PBXGroup;
 			children = (
+				F0BA2C9C172AD05200C5C1B0 /* QuartzCore.framework */,
 				F0457C3F17247BA600EDE3AB /* DragToCloseImage */,
+				F0457C5D17247E2700EDE3AB /* Resources */,
 				F0457C3817247BA600EDE3AB /* Frameworks */,
 				F0457C3717247BA600EDE3AB /* Products */,
 			);
@@ -105,6 +114,15 @@
 				F0457C4F17247BA600EDE3AB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0457C5D17247E2700EDE3AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0457C5E17247FB300EDE3AB /* sample-image.jpg */,
+				F0457C6017259D5100EDE3AB /* sample-image@2x.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +182,8 @@
 				F0457C4E17247BA600EDE3AB /* Default@2x.png in Resources */,
 				F0457C5017247BA600EDE3AB /* Default-568h@2x.png in Resources */,
 				F0457C5617247BA600EDE3AB /* DOViewController.xib in Resources */,
+				F0457C5F17247FB300EDE3AB /* sample-image.jpg in Resources */,
+				F0457C6117259D5100EDE3AB /* sample-image@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +319,7 @@
 				F0457C5B17247BA600EDE3AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DOViewController : UIViewController
+@interface DOViewController : UIViewController <UIGestureRecognizerDelegate>
 
 @end
